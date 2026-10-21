@@ -1,0 +1,20 @@
+[project]
+name = "dbt-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Karthik5412", email = "karthikeyakurucharlapati@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "databricks>=0.2",
+    "dbt-core>=1.12.6",
+]
+
+[project.scripts]
+dbt-practice = "dbt_practice:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
