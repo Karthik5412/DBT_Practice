@@ -6,6 +6,6 @@ dbt_pro_1:
       http_path: /sql/1.0/warehouses/19c877990f2eb221
       schema: default
       threads: 1
-      token: "dapi721915c9a66fb4d4788a8f00f1371266"
+      token: 
       type: databricks
   target: dev
